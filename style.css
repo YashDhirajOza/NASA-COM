@@ -23,19 +23,19 @@
 
 /* Customizing the button */
 .swal-button {
-  background-color:#053314 !important; /* Change button background color */
+  background-color:#052B31 !important; /* Change button background color */
   color: #ffffff !important; /* Change button text color */
 }
 
 /* Customizing the button on hover */
 .swal-button:hover {
-  background-color:#0e4b16 !important; /* Change button hover background color */
+  background-color:#0e2b4b !important; /* Change button hover background color */
 }
 :root {
-  --bg-color: #053314;
-  --second-color: #064b10;
+  --bg-color: #052B31;
+  --second-color: #06314b;
   --txt-color: #fff;
-  --main-color: rgb(192, 223, 100);
+  --main-color: rgb(100, 192, 223);
 }
 
 html {
@@ -262,11 +262,11 @@ body.dark-theme .theme-toggle .fa-sun {
 
 body.dark-theme .theme-toggle .fa-moon {
   display: inline;
-  color: #f1c40f;
+  color: #0f85c4;
 }
 
 body.dark-theme a {
-  color: #f1c40f;
+  color: #0f85c4;
 }
 
 body.dark-theme button {
@@ -444,12 +444,12 @@ span {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #00BFFF 1px 0 10px;
 
   }
   
   to {
-    text-shadow: yellowgreen 5px 0 15px;
+    text-shadow: #0099CC 5px 0 15px;
   }
 }
 
@@ -749,13 +749,13 @@ span {
 .services-box h3 {
   font-size: 2.6rem;
   color: white;
-  text-shadow: #07421a;
-  text-shadow: 0 0 5px rgb(192, 223, 100);
+  text-shadow: #072142;
+  text-shadow: 0 0 5px rgb(100, 192, 223);
 }
 
 .services-box h3:hover {
   font-size: 2.6rem;
-  text-shadow: #07421a;
+  text-shadow: #072142;
 }
 
 .services-box p {
@@ -796,8 +796,8 @@ span {
   flex-direction: column;
   position: relative;
   width: 290px;
-  background: linear-gradient(90deg, rgb(31, 102, 31), rgb(231, 231, 121));
-  background: -webkit-linear-gradient(90deg, rgb(31, 102, 31), rgb(231, 231, 121));
+  background: linear-gradient(90deg, rgb(31, 102, 102), rgb(121, 231, 231));
+  background: -webkit-linear-gradient(90deg, rgb(31, 102, 102), rgb(121, 231, 231));
   border-radius: 10px;
   margin: 10px;
   align-self: stretch;
@@ -814,7 +814,7 @@ span {
 }
 
 .fcard:hover {
-  box-shadow: 2px 2px 10px rgba(185, 185, 106, 0.8); 
+  box-shadow: 2px 2px 10px rgba(106, 185, 185, 0.8); 
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -835,7 +835,7 @@ span {
 .article h2 {
   font-size: 22px;
   letter-spacing: 1px;
-  text-shadow: 1.5px 1px green;
+  text-shadow: 1.5px 1px blue;
   text-align: left;
 }
 
@@ -850,7 +850,7 @@ span {
   overflow: hidden;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  filter: drop-shadow(0px 2px 2px #133813aa);
+  filter: drop-shadow(0px 2px 2px #131a3caa);
 }
 
 .article {
@@ -1018,16 +1018,16 @@ a {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: white !important;
-  background: #053314;
+  background: #052B31;
   border-radius: 20px;
   margin: 0.7rem 0;
-  border: 1px solid #B19222;
-  box-shadow: inset 23px 23px 21px #04240e, inset -23px -23px 21px #07421a;
+  border: 1px solid #2233B1;
+  box-shadow: inset 23px 23px 21px #04240e, inset -23px -23px 21px #072142;
 }
 
 .contact form .input-box input::placeholder,
 .contact form textarea::placeholder {
-  color: rgba(206, 255, 206, 0.7) !important;
+  color: rgba(206, 206, 255, 0.7) !important;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -1048,7 +1048,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-top: 2rem;
   cursor: pointer;
   padding: 1rem 2rem;
-  background: #B19222;
+  background: #2233B1;
   color: #fff; 
   border: none; 
   border-radius: 0.8rem;
@@ -1056,14 +1056,14 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .contact form .btn:hover {
-  background: #997016;
+  background: #163099;
 }
 
 #review-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 20px 0 0 20px;
-  background-color: #B19222;
+  background-color: #2233B1;
   color: white;
   font-size: 16px;
   writing-mode: vertical-rl;
@@ -1077,7 +1077,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #review-btn:hover {
-  background-color: #997016;
+  background-color: #163099;
 }
 
 .button-container {
@@ -1104,7 +1104,7 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .modal-content {
-  background: linear-gradient(180deg, rgb(176, 255, 152), rgb(4, 74, 4));
+  background: linear-gradient(180deg, rgb(152, 176, 255), rgb(4, 4, 74));
   padding: 11px 13px;
   border-radius: 10px;
   width: 90%;
@@ -1141,7 +1141,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* Updated close button styles */
 .close {
-  color: #175600;
+  color: #001757;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -1153,15 +1153,15 @@ input[type="number"]::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00e10017;
+  background-color: #0019e1;
   border-radius: 50%;
-  border: 2px solid #009a03;
+  border: 2px solid #00309a;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .close:hover,
 .close:focus {
-  background-color: #04ff043d;
+  background-color: #04aaff3d;
   color: #000;
   transform: rotate(90deg);
 }
@@ -1171,7 +1171,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .modal-content h2 {
   margin-top: 4px;
   text-align: center;
-  color: rgb(0, 28, 6);
+  color: rgb(0, 6, 28);
   font-size: 28px;
 }
 
@@ -1184,7 +1184,7 @@ input[type="number"]::-webkit-inner-spin-button {
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
-  background-color: rgb(75, 179, 75);
+  background-color: rgb(75, 75, 179);
   color: white;
   border-radius: 50%;
   width: 24px;
@@ -1219,7 +1219,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .modal-content button[type="submit"] {
-  background: linear-gradient(to right, rgb(75, 179, 75), rgb(42, 228, 42));
+  background: linear-gradient(to right, rgb(75, 75, 179), rgb(42, 42, 228));
   color: white;
   border: none;
   border-radius: 5px;
@@ -1232,7 +1232,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 100%;
 }
 .modal-content button[type="submit"]:hover {
-  background: linear-gradient(135deg, rgb(63, 220, 63), rgb(20, 124, 20));
+  background: linear-gradient(135deg, rgb(63, 63, 220), rgb(20, 20, 124));
   transform: translateY(2px);
 }
 .modal-content button[type="submit"]:focus {
@@ -1253,13 +1253,13 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .star:hover,
 .star.hover {
-  color: #fdd835;
+  color: #3547dd;
   transform: scale(1.4);
 }
 
 .star.active,
 .star.active:hover {
-  color: #fdd835;
+  color: #3547dd;
 }
 
 .star.active:hover ~ .star {
@@ -1286,7 +1286,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .popup-content {
-  background-color: rgb(206, 231, 203);
+  background-color: rgb(203, 231, 206);
   padding: 20px;
   text-align: center;
   width: 92%;
@@ -1295,20 +1295,20 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 10px;
 }
 
-.popup-content h2 {
+.popup-content h2 { 
   font-size: 23px;
-  color: #04862d;
+  color: #042d86  ;
 }
 .popup-content .pop-para
 {
-  color: #535252;
+  color: #525353;
   font-size: 16px;
   margin-bottom: 11px;
   position: relative;
   bottom: 29px;
 }
 .popup-button {
-  background-color: rgb(9, 148, 9);
+  background-color: rgb(9, 9, 148);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -1321,7 +1321,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .popup-button:hover {
-  background-color: #196205;
+  background-color: #052196;
   transform: translateY( 1px);
 }
 .popup-content  img { 
@@ -1411,7 +1411,7 @@ input[type="number"]::-webkit-inner-spin-button {
   left: 10px;
   transform: translateY(-50%);
   background-color: #8a2be2;
-  background-color: rgb(75, 179, 75);
+  background-color: rgb(75, 75, 179);
   color: white;
   border-radius: 50%;
   width: 24px;
@@ -1439,7 +1439,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .modal-content button[type="submit"] {
   background: linear-gradient(to right, #8a2be2, #f163ed);
-  background: linear-gradient(to right, rgb(75, 179, 75), rgb(42, 228, 42));
+  background: linear-gradient(to right, rgb(75, 75, 179), rgb(42, 42, 228));
     color: white;
     border: none;
     border-radius: 5px;
@@ -1451,7 +1451,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .modal-content button[type="submit"]:hover {
   background: linear-gradient(to right, #f55ef0, #8a2be2);
-  background: linear-gradient(to right, rgb(63, 220, 63), rgb(20, 124, 20));
+  background: linear-gradient(to right, rgb(63, 63, 220), rgb(20, 124, 20));
 }
 
 
@@ -1495,7 +1495,7 @@ input[type="number"]::-webkit-inner-spin-button {
   flex: wrap;
   flex-direction: column;
   padding: 1rem 0;
-  background: #0e4b16;
+  background: #0e2b4b;
   min-height: 25rem;
 }
 
@@ -1873,7 +1873,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(192, 223, 100);
+  background: rgb(100, 192, 223);
 }
 
 
@@ -1909,7 +1909,7 @@ input[type="number"]::-webkit-inner-spin-button {
   right: 24px;
   height: 60px;
   width: 60px;
-  background-color: #B19222;
+  background-color: #2233B1;
   border-radius:50%;
   margin-bottom: 10px;
   justify-content: center;
@@ -1930,7 +1930,7 @@ width: 100%;
 
 }
 #backtoTop a:hover{
-background-color: #a48613;
+background-color: #1346a4;
 }
 #backtoTop a i {
 font-size: 36px;
@@ -2103,7 +2103,7 @@ font-size: 36px;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color:#B7B597;
+    border-top-color:#97B7B5;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
     z-index: 99999;
@@ -2118,7 +2118,7 @@ font-size: 36px;
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color:#254336;
+    border-top-color:#253625;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -2132,7 +2132,7 @@ font-size: 36px;
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #6B8A7A;
+    border-top-color: #7A6B8A;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -2209,7 +2209,7 @@ font-size: 36px;
   padding: 1rem;
   transition: all 0.5s linear;
   transform: translateX(-14.5rem);
-  text-shadow: 2px 2px 4px #B19222;
+  text-shadow: 2px 2px 4px #2233B1;
 }
 
 .icon-bar a:hover {
@@ -2257,7 +2257,7 @@ font-size: 36px;
 .icon-bar a .fab {
     font-size: 2rem;
     padding-left: 0.5rem;
-    text-shadow: 2px 2px 4px #B19222;
+    text-shadow: 2px 2px 4px #2233B1;
     animation: letszoom 3s linear alternate-reverse infinite;
 }
 
@@ -2285,7 +2285,7 @@ font-size: 36px;
   .icon-bar a .fab {
     font-size: 2rem;
     padding-left: 1.2rem;
-    text-shadow: 2px 2px 4px #B19222;
+    text-shadow: 2px 2px 4px #2233B1;
     animation: letszoom 3s linear alternate-reverse infinite;
   }
 
